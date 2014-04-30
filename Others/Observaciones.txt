@@ -1,0 +1,6 @@
+El directorio no debe tener signos de puntuacion
+La direccion que se pasa como parámetro debe contener un último separador de files, ejemplo: "C:\Program Files\Update\"
+
+Eliminar la línea :  else
+                        return new Logotipo(parts[0], parts[1], int.Parse(parts[2]), int.Parse(parts[3]), int.Parse(parts[4]), float.Parse(parts[5].Replace("\"", "") + "." + parts[6].Replace("\"", "")), float.Parse(parts[7].Replace("\"", "") + "." + parts[8].Replace("\"", "")), img, DateTime.Now);
+	de la clase logotipo para que no exporte archivos cuando no existe sus logotipos .emb al celular
